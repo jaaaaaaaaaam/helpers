@@ -1,11 +1,22 @@
 {
     "name": "jamosaur/helpers",
-    "description": "Some helpers",
+    "type": "library",
+    "description": "Helpers.",
+    "keywords": ["helpers", "jamosaur"],
+    "homepage": "http://github.com/jaaaaaaaaaam/helpers",
+    "license": "MIT",
     "authors": [
         {
-            "name": "James",
-            "email": "j.wallen.jones@googlemail.com"
+            "name": "James Wallen-Jones",
+            "homepage": "https://github.com/jaaaaaaaaaam/"
         }
     ],
-    "require": {}
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {"Jamosaur": "src/"}
+    }
 }
