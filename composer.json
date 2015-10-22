@@ -1,0 +1,12 @@
+{
+    "name": "jamosaur/helpers",
+    "description": "Some helpers",
+    "authors": [
+        {
+            "name": "James",
+            "email": "j.wallen.jones@googlemail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
